@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Barber Shop Website Design</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/6ec57380b5.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
+
+</head>
+<body>
+    <section id="banner">
+        <img src="images/logo.png" class="logo">
+        <div class="banner-text">
+            <h1>Hair Studio</h1>
+            <p>Style Your Hair Is Style Your Life</p>
+            <div class="banner-btn">
+                <a href="#"><span></span>Find Out</a>
+                <a href="#"><span></span>Read More</a>
+            </div>
+        </div>
+    </section>
+
+    <div class="side-nav">
+        <nav>
+            <ul>
+                <li><a href="#banner">HOME</a></li>
+                <li><a href="#feature">FEATURES</a></li>
+                <li><a href="#service">SERVICES</a></li>
+                <li><a href="#testimonial">TESTIMONIAL</a></li>
+                <li><a href="#footer">MEET US</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <div id="menu-btn">
+        <img src="images/menu.png" id="menu" onclick="showMenu()">
+    </div>
+    
+    <!-- Features -->
+    <section id="feature">
+        <div class="title-text">
+            <p>FEATURES</p>
+            <h1>Why Choose Us</h1>
+        </div>
+
+        <div class="feature-box">
+            <div class="features">
+                <h1>Experienced Staff</h1>
+                <div class="features-desc">
+                    <div class="features-icon">
+                        <i class="fa-solid fa-shield-halved"></i>
+                    </div>
+                    <div class="features-text">
+                        <p>The camaraderie among colleagues, the vibrant atmosphere, 
+                           and the opportunity to serve our diverse clientele have made this journey unforgettable.</p>
+                    </div>
+                </div>
+
+                <h1>Pre Booking Online</h1>
+                <div class="features-desc">
+                    <div class="features-icon">
+                        <i class="fa-solid fa-square-check"></i>
+                    </div>
+                    <div class="features-text">
+                        <p>Introducing our convenient online pre-booking system at XYZ Barbershop! 
+                           Say goodbye to waiting in line and hello to a hassle-free grooming experience. With just a few clicks, you can schedule your next haircut or shave from the comfort of your own home or on the go.</p>
+                    </div>
+                </div>
+
+                <h1>Affordable Cost</h1>
+                <div class="features-desc">
+                    <div class="features-icon">
+                        <i class="fa-solid fa-euro-sign"></i>
+                    </div>
+                    <div class="features-text">
+                        <p>That's why we're proud to offer affordable grooming services without compromising on quality. Whether you're in need of a trim, a fresh fade, 
+                           or a classic shave, our skilled barbers deliver top-notch results at prices that won't empty your wallet.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="feature-img">
+                <img src="images/barber-man.jpg">
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Service -->
+    <section id="service">
+
+        <div class="title-text">
+            <p>SERVICES</p>
+            <h1>We Provide Better</h1>
+        </div>
+
+        <div class="service-box">
+            <div class="single-service"> 
+                <img src="images/pic-1.jpg">
+                <div class="overlay"></div>
+                <div class="service-desc">
+                    <h3>Hair Styling</h3> 
+                    <hr>
+                    <p>Transform your look and express your unique style with our expert hair styling services at XYZ Barbershop. From classic 
+                       cuts to modern trends, our skilled barbers are here to help you achieve the perfect hairstyle that suits your personality and preferences.</p>
+                </div>
+            </div>
+            <div class="single-service"> 
+                <img src="images/pic-2.jpg">
+                <div class="overlay"></div>
+                <div class="service-desc">
+                    <h3>Hair Trim</h3> 
+                    <hr>
+                    <p>Ready for a refresh? Say goodbye to split ends and hello to a rejuvenated look with a professional hair trim at XYZ Barbershop. 
+                       Our skilled barbers specialize in precision trimming to maintain your hair's health and shape while enhancing its natural beauty.</p>
+                </div>
+            </div>
+            <div class="single-service"> 
+                <img src="images/pic-3.jpg">
+                <div class="overlay"></div>
+                <div class="service-desc">
+                    <h3>Hair Cut</h3> 
+                    <hr>
+                    <p>Ready for a change? Elevate your style and boost your confidence with a precision haircut at XYZ Barbershop. 
+                       Our skilled barbers are masters of their craft, delivering tailored cuts that complement your features and reflect your individuality.</p>
+                </div>
+            </div>
+            <div class="single-service"> 
+                <img src="images/pic-4.jpg">
+                <div class="overlay"></div>
+                <div class="service-desc">
+                    <h3>Dry Shampoo </h3> 
+                    <hr>
+                    <p>Introducing our latest addition to your grooming arsenal: dry shampoo from XYZ Barbershop. Perfect for those busy days 
+                       when you need a quick hair refresh, our dry shampoo absorbs excess oil and revives your locks without the need for water.</p>
+                </div>
+            </div>
+        </div>
+
+
+    </section>
+
+    <!-- Testimonial -->
+    <section id="testimonial">
+
+        <div class="title-text">
+            <p>TESTIMONIAL</p>
+            <h1>What Client Says </h1>
+        </div>
+
+        <div class="testimonial-row">
+            <div class="testimonial-column">
+                <div class="user">
+                    <img src="images/img-1.jpg">
+                    <div class="user-info">
+                        <h4>KEN NORMAN <i class="fa-brands fa-twitter"></i></h4>
+                        <small>@kennnorman</small>
+                    </div>
+                </div>
+                <p>XYZ Barbershop is my go-to spot for a top-notch haircut every time. The skilled barbers, friendly atmosphere, 
+                    and attention to detail make it a standout in the neighborhood. Highly recommend!</p>
+            </div>
+            <div class="testimonial-column">
+                <div class="user">
+                    <img src="images/img-2.jpg">
+                    <div class="user-info">
+                        <h4>Liara Karian<i class="fa-brands fa-twitter"></i></h4>
+                        <small>@liara_kairan</small>
+                    </div>
+                </div>
+                <p>The barbers' expertise and welcoming atmosphere 
+                    create a grooming experience like no other. I couldn't be happier with the results. Highly recommended!</p>
+            </div>
+            
+            <div class="testimonial-column">
+                <div class="user">
+                    <img src="images/img-3.jpg">
+                    <div class="user-info">
+                        <h4>Ricky Danial<i class="fa-brands fa-twitter"></i></h4>
+                        <small>@rickydanial03</small>
+                    </div>
+                </div>
+                <p>XYZ Barbershop is simply the best. The talented barbers, comfortable ambiance, and attention to detail keep me coming 
+                    back for more. 10/10!</p>
+            </div>
+        </div>
+        
+    </section>
+
+    <!-- Footer -->
+    <section id="footer">
+        <img src="images/footer-img.png" class="footer-img">
+        <div class="title-text">
+            <p>CONTACT</p>
+            <h1>Visit Shop Today</h1>
+        </div>
+
+        <div class="footer-row">
+            <div class="footer-left">
+                <h1>Operning Hours</h1>
+                <p><i class="fa-solid fa-clock"></i> Monday to Friday - 9am to 9pm</p>
+                <p><i class="fa-solid fa-clock"></i> Saturday to Sunday - 8am to 11pm</p>
+            </div>
+            <div class="footer-right">
+                <h2>Get In Touch</h2>
+                <p>Berliner Str. 18, Frankfurt am Main <i class="fa-solid fa-location-dot"></i></p>
+                <p>bababershop @gmail.com <i class="fa-solid fa-paper-plane"></i></p>
+                <p>+01 23456789 <i class="fa-solid fa-phone"></i></p>
+            </div>
+        </div>
+
+        <div class="social-links">
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-youtube"></i>
+            <p>Copyright</p>
+        </div>
+        
+    </section>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
